@@ -4,7 +4,7 @@ import React, { useContext} from 'react'
 import { ShopContext } from './shopcontext'
 import { RiDeleteBack2Line } from 'react-icons/ri'
 const cartitem = (props) => {
-
+ 
     const {id, name, price, image, brand} = props.data;
     const { addToCart, cartItems, removeToCart, updateCartItemCount, itemPrice} = useContext(ShopContext);
     const itemsInStock = id === 0 ? Math.ceil((id + 2.5) * 102 / 2) : Math.ceil((id * 102.5) / 2);

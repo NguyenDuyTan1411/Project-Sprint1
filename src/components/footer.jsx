@@ -9,7 +9,7 @@ import playstore from '../assets/images/pay/play.jpg'
 import appstore from '../assets/images/pay/app.jpg'
 import visa from '../assets/images/pay/pay.png'
 
-const footer = () => {
+const  footer = () => {
   return <>
   <footer className='footer p-5'>
     <div className="container-xxl">
