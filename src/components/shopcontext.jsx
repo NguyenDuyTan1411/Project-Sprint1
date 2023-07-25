@@ -17,7 +17,7 @@ const getDefaultCart = () => {
   return cart;
 };
 
-
+//content của sản phẩm
 const shopcontext = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
   const getTotalCartAmount = () => {
